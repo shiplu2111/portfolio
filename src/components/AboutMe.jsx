@@ -3,14 +3,14 @@ import { TypeAnimation } from "react-type-animation";
 const AboutMe = () => {
   return (
     <>
-      <div className="flex items-center justify-center px-[52px] py-[53px] relative">
+      <div className="flex items-center justify-center px-[52px] py-[53px] relative overflow-hidden">
         <div className="absolute bottom-[20px] left-[52px] animate-spin-medium">
           <img src="/icons/Vector1.svg" alt="" />
         </div>
         <div className="absolute top-[80px] right-[62px] animate-spin-medium ">
           <img className="h-[150px]" src="/icons/Vector1.svg" alt="" />
         </div>
-        <div className="z-20 grid grid-cols-2 items-start justify-center gap-[60px] pt-[48px] px-[120px]">
+        <div className="z-10 grid grid-cols-2 items-start justify-center gap-[60px] pt-[48px] px-[120px]">
           <div className="flex items-center justify-center border border-gray-500  rounded-[20px] bg-[#1E364C]">
             <img className="h-[554px] " src="/shiplu22.webp" alt="" />
           </div>
