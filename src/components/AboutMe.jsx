@@ -12,7 +12,7 @@ const AboutMe = () => {
         </div>
         <div className="z-20 grid grid-cols-2 items-start justify-center gap-[60px] pt-[48px] px-[120px]">
           <div className="flex items-center justify-center border border-gray-500  rounded-[20px] bg-[#1E364C]">
-            <img className="h-[554px] " src="/shiplu2.png" alt="" />
+            <img className="h-[554px] " src="/shiplu22.webp" alt="" />
           </div>
           <div className="flex flex-col items-start justify-center">
             <div className="flex items-center justify-center bg-[#0788ff33] rounded-[4px]">
