@@ -1,5 +1,6 @@
 "use client";
 import { TypeAnimation } from "react-type-animation";
+import { FaCloudDownloadAlt } from "react-icons/fa";
 const AboutMe = () => {
   return (
     <>
@@ -88,12 +89,16 @@ const AboutMe = () => {
               </div>
             </div>
             <div className="pt-[35px] flex items-start justify-center">
-              <div className="flex items-center justify-center">
+              <div className="flex items-center justify-center gap-3">
                 <button className="flex items-center justify-center gap-[10px] px-8 py-[14px] bg-[#0788FF] text-[#FFFFFF] rounded-[40px] border-[2px] border-[#0788FF] hover:bg-transparent hover:border-[#FFFFFF] transform duration-500">
                   Get in touch{" "}
                   <span>
                     <img src="/icons/icon.svg" alt="" />
                   </span>
+                </button>
+                <button className="flex items-center justify-center gap-[10px] px-8 py-[14px] bg-[#0788FF] text-[#FFFFFF] rounded-[40px] border-[2px] border-[#0788FF] hover:bg-transparent hover:border-[#FFFFFF] transform duration-500">
+                  Download CV
+                  <FaCloudDownloadAlt />
                 </button>
               </div>
             </div>
