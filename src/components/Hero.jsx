@@ -76,7 +76,7 @@ const Hero = () => {
           </div>
         </div>
         <div>
-          <img className="h-[677.19] z-10" src="/shiplu1.webp" />
+          <img className="max-h-[377.19] z-10" src="/shiplu1.webp" />
         </div>
       </div>
     </>
