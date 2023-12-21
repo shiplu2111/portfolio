@@ -1,4 +1,5 @@
 "use client";
+import { VscChip } from "react-icons/vsc";
 import { FaStar, FaStarHalfAlt } from "react-icons/fa";
 const Services = () => {
   return (
@@ -19,11 +20,7 @@ const Services = () => {
                 <div className=" rounded-[10px] px-[20px]  ">
                   <div className="pt-[150px] flex  items-start justify-center w-full flex-col">
                     <div className="bg-[#0788FF] rounded-[5px] p-3">
-                      <img
-                        className="h-[22px] w-[22px]"
-                        src="/icons/icon3.svg"
-                        alt=""
-                      />
+                      <VscChip className="h-[22px] w-[22px] text-white" />
                     </div>
                   </div>
                   <div className="pt-3 text-[20px] font-[500] leading-[24px] tracking-[1px]  text-[#FFF]">
@@ -51,11 +48,7 @@ const Services = () => {
                 <div className=" rounded-[10px] px-[20px]  ">
                   <div className="pt-[150px] flex  items-start justify-center w-full flex-col">
                     <div className="bg-[#0788FF] rounded-[5px] p-3">
-                      <img
-                        className="h-[22px] w-[22px]"
-                        src="/icons/icon3.svg"
-                        alt=""
-                      />
+                      <VscChip className="h-[22px] w-[22px] text-white" />
                     </div>
                   </div>
                   <div className="pt-3 text-[20px] font-[500] leading-[24px] tracking-[1px]  text-[#FFF]">
@@ -82,11 +75,7 @@ const Services = () => {
               <div className=" rounded-[10px] px-[20px]  ">
                 <div className="pt-[150px] flex  items-start justify-center w-full flex-col">
                   <div className="bg-[#0788FF] rounded-[5px] p-3">
-                    <img
-                      className="h-[22px] w-[22px]"
-                      src="/icons/icon3.svg"
-                      alt=""
-                    />
+                    <VscChip className="h-[22px] w-[22px] text-white" />
                   </div>
                 </div>
                 <div className="pt-3 text-[20px] font-[500] leading-[24px] tracking-[1px]  text-[#FFF] ">
@@ -112,11 +101,7 @@ const Services = () => {
               <div className=" rounded-[10px] px-[20px]  ">
                 <div className="pt-[150px] flex  items-start justify-center w-full flex-col">
                   <div className="bg-[#0788FF] rounded-[5px] p-3">
-                    <img
-                      className="h-[22px] w-[22px]"
-                      src="/icons/icon3.svg"
-                      alt=""
-                    />
+                    <VscChip className="h-[22px] w-[22px] text-white" />
                   </div>
                 </div>
                 <div className="pt-3 text-[20px] font-[500] leading-[24px] tracking-[1px]  text-[#FFF]">
