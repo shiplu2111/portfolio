@@ -26,3 +26,6 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+.custom-dot.slick-active {
+  background: blue; /* Change the background color for the active dot */
+}
