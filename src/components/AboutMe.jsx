@@ -4,16 +4,28 @@ import { FaCloudDownloadAlt } from "react-icons/fa";
 const AboutMe = () => {
   return (
     <>
-      <div className="flex items-center justify-center px-[52px] py-[53px] relative overflow-hidden">
-        <div className="absolute bottom-[20px] left-[52px] animate-spin-medium">
-          <img src="/icons/Vector1.svg" alt="" />
+      <div className="flex items-center justify-center px-[26px] md:px-[52px] py-[40px]  md:py-[53px] relative overflow-hidden">
+        <div className="absolute bottom-[20px]  left-[-80px] xl:left-[-160px] md:left-[-110px]  animate-spin-medium">
+          <img
+            className="h-[160px] md:h-[220px] xl:h-[320px]"
+            src="/icons/Vector1.svg"
+            alt=""
+          />
         </div>
-        <div className="absolute top-[80px] right-[62px] animate-spin-medium ">
-          <img className="h-[150px]" src="/icons/Vector1.svg" alt="" />
+        <div className="absolute top-[80px] right-[-40px] md:right-[-60px] xl:right-[-75px] animate-spin-medium ">
+          <img
+            className="h-[80px] md:h-[120px] xl:h-[150px]"
+            src="/icons/Vector1.svg"
+            alt=""
+          />
         </div>
-        <div className="z-10 grid grid-cols-2 items-start justify-center gap-[60px] pt-[48px] px-[120px]">
+        <div className="z-10 grid grid-cols-1 xl:grid-cols-2 items-start justify-center gap-[60px] md:pt-[48px] px-[26.5px] md:px-[80px] xl:px-[120px]">
           <div className="flex items-center justify-center border border-gray-500  rounded-[20px] bg-[#1E364C]">
-            <img className="h-[554px] " src="/shiplu22.webp" alt="" />
+            <img
+              className="h-[354px] md:h-[454px] xl:h-[554px] "
+              src="/shiplu22.webp"
+              alt=""
+            />
           </div>
           <div className="flex flex-col items-start justify-center">
             <div className="flex items-center justify-center bg-[#0788ff33] rounded-[4px]">
@@ -90,13 +102,13 @@ const AboutMe = () => {
             </div>
             <div className="pt-[35px] flex items-start justify-center">
               <div className="flex items-center justify-center gap-3">
-                <button className="flex items-center justify-center gap-[10px] px-8 py-[14px] bg-[#0788FF] text-[#FFFFFF] rounded-[40px] border-[2px] border-[#0788FF] hover:bg-transparent hover:border-[#FFFFFF] transform duration-500">
+                <button className="flex items-center justify-center gap-[10px] px-4 py-[7px] md:px-8 md:py-[14px] bg-[#0788FF] text-[#FFFFFF] rounded-[40px] border-[2px] border-[#0788FF] hover:bg-transparent hover:border-[#FFFFFF] transform duration-500">
                   Get in touch{" "}
                   <span>
                     <img src="/icons/icon.svg" alt="" />
                   </span>
                 </button>
-                <button className="flex items-center justify-center gap-[10px] px-8 py-[14px] bg-[#0788FF] text-[#FFFFFF] rounded-[40px] border-[2px] border-[#0788FF] hover:bg-transparent hover:border-[#FFFFFF] transform duration-500">
+                <button className="flex items-center justify-center gap-[10px] px-4 py-[7px] md:px-8 md:py-[14px] bg-[#0788FF] text-[#FFFFFF] rounded-[40px] border-[2px] border-[#0788FF] hover:bg-transparent hover:border-[#FFFFFF] transform duration-500">
                   Download CV
                   <FaCloudDownloadAlt />
                 </button>

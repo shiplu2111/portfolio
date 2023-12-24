@@ -3,7 +3,7 @@ const Projects = () => {
   return (
     <>
       <div className="flex items-center justify-start bg-[#0788ff1a] ">
-        <div className="px-[82.5px] py-[100px] flex flex-col items-start justify-start">
+        <div className="px-[52.5px] py-7 md:py-[100px] flex flex-col items-start justify-start">
           <div className="flex items-start justify-start bg-[#0788FF33] rounded-[4px]">
             <div className="px-4 py-1 text-[#FFF] text-[16px] font-[400] leading-[20px] tracking-[4px] uppercase ">
               My Work
@@ -12,7 +12,7 @@ const Projects = () => {
           <div className="flex items-start justify-center pt-3 text-[40px] font-[700] leading-[48px]  uppercase text-[#FFFFFF]">
             RECENT PROJECT
           </div>
-          <div className="grid grid-cols-3 gap-6 items-center justify-center pt-[52px]">
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 items-center justify-center pt-[52px]">
             <div className="bg-[#FFF] rounded-[10px] px-[14px] py-[14px] flex flex-col items-start justify-center">
               <div>
                 <img
@@ -170,8 +170,8 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="flex w-full items-center justify-center pt-5">
-            <button className="flex items-center justify-center gap-[10px] px-8 py-[14px] bg-[#0788FF] text-[#FFFFFF] rounded-[40px] border-[2px] border-[#0788FF] hover:bg-transparent hover:border-[#FFFFFF] transform duration-500">
+          <div className="flex w-full items-center justify-center pt-8 md:pt-12">
+            <button className="flex items-center justify-center gap-[10px] px-4 md:px-8 py-[7px] md:py-[14px] bg-[#0788FF] text-[#FFFFFF] rounded-[40px] border-[2px] border-[#0788FF] hover:bg-transparent hover:border-[#FFFFFF] transform duration-500">
               Explore More
               <span>
                 <FaArrowRight className="text-white" />

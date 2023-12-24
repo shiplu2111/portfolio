@@ -22,8 +22,8 @@ const Header = () => {
       <div
         className={`${
           scrolled
-            ? "fixed top-0 left-0  flex items-center justify-between px-[82.5px] py-5 z-50 bg-slate-900 w-screen transform duration-1500"
-            : "fixed top-0 left-0 w-screen transform duration-1500 flex items-center justify-between px-[82.5px] py-5 bg-gradient-to-r from-[#07233b] from-10% via-[#04192d] via-58%  to-[#050c16] to-90%"
+            ? "fixed top-0 left-0  flex items-center justify-between px-[40px] md:px-[82.5px] py-5 z-50 bg-slate-900 w-screen transform duration-1500"
+            : "fixed top-0 left-0 w-screen transform duration-1500 flex items-center justify-between  px-[40px] md:px-[82.5px]  py-5 bg-gradient-to-r from-[#07233b] from-10% via-[#04192d] via-58%  to-[#050c16] to-90%"
         }`}
       >
         <div>

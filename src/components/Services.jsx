@@ -5,16 +5,16 @@ const Services = () => {
   return (
     <>
       <div className="flex items-center justify-start  ">
-        <div className="px-[82.5px] py-[100px] flex flex-col items-start justify-start">
+        <div className="px-[52.5px] md:px-[62.5px] lg:px-[82.5px] py-[100px] flex flex-col items-start justify-start">
           <div className="flex items-start justify-start bg-[#0788FF33] rounded-[4px]">
             <div className="px-4 py-1 text-[#FFF] text-[16px] font-[400] leading-[20px] tracking-[4px] uppercase ">
               SERVICES
             </div>
           </div>
-          <div className="flex items-center justify-center pt-3 text-[40px] font-[700] leading-[48px]  uppercase text-[#FFFFFF]">
+          <div className="flex items-center justify-center pt-3 text-[25px] md:text-[32px]  xl:text-[40px] font-[700] leading-[48px]  uppercase text-[#FFFFFF]">
             <span className="text-[#0788FF]">SERVICES-</span> I AM PROVIDING
           </div>
-          <div className="grid grid-cols-4 gap-6 items-center justify-between pt-[48px] w-full ">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-6 items-center justify-between pt-[48px] w-full ">
             <div className="bg-[url('/services/service1.jpg')] bg-cover rounded-[10px]  ">
               <div className="bg-gradient-to-r from-[#040c1600] from-0%  to-[#040C16] to-100%">
                 <div className=" rounded-[10px] px-[20px]  ">

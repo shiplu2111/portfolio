@@ -42,9 +42,13 @@ const Testimonial = () => {
 
   return (
     <>
-      <div className="bg-[#0788ff1a]  flex flex-col items-center justify-center px-[83px] py-[70px] relative">
-        <div className="absolute top-[30%] left-[150px] animate-bounce">
-          <img className="object-cover" src="/icons/Image.png" alt="" />
+      <div className="bg-[#0788ff1a] overflow-hidden  flex flex-col items-center justify-center px-[22.5px] md:px-[83px] py-[70px] relative">
+        <div className="absolute top-[30%] left-[30px] animate-bounce">
+          <img
+            className="h-16 w-16 object-cover"
+            src="/icons/Image.png"
+            alt=""
+          />
         </div>
         <div className="absolute top-[25%] md:right-[-250px] right-[-60px]">
           <img
