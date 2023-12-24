@@ -42,7 +42,7 @@ const Testimonial = () => {
 
   return (
     <>
-      <div className="bg-[#0788ff1a] overflow-hidden  flex flex-col items-center justify-center px-[22.5px] md:px-[83px] py-[70px] relative ">
+      <div className="bg-[#0788ff1a] overflow-hidden  flex flex-col items-center justify-center px-[16px] md:px-[83px] py-[70px] relative ">
         <div className="absolute top-[30%] left-[30px] animate-bounce">
           <img
             className="h-16 w-16 object-cover"
@@ -114,7 +114,7 @@ const Testimonial = () => {
                 </div>
                 <div className="pt-5">
                   {" "}
-                  <div className="pt-[20px] pr-8 flex items-center justify-center text-[20px] font-[400] leading-[30px] text-[#FFFFFF] tracking-[0.2px] text-center px-[60px]">
+                  <div className="pt-[20px] pr-8 flex items-center justify-center text-[20px] font-[400] leading-[30px] text-[#FFFFFF] tracking-[0.2px] md:text-center px-[16px] xl:px-[62px] text-justify">
                     👋 I am a dedicated and experienced web developer with a
                     passion for crafting robust and efficient digital solutions.
                     With a strong academic foundation in Computer Science and

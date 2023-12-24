@@ -9,7 +9,7 @@ import {
 const Hero = () => {
   return (
     <>
-      <div className="grid grid-cols-1 lg:grid-cols-2  items-center justify-center px-[52.5px] md:px-[82.5px] pt-[80px]  md:pt-[60px]">
+      <div className="grid grid-cols-1 lg:grid-cols-2  items-center justify-center px-[16px] md:px-[82.5px] pt-[80px]  md:pt-[60px]">
         <div className="flex flex-col items-start  justify-center pb-[10px] md:pb-[50px]">
           <div className="flex rounded-[4px] px-[13px] py-[5px] bg-[#0788ff33] uppercase text-[16px] font-[400] leading-[20px] traking-[4px] text-[#fff]">
             Md Enzamamul Haque Shiplu
@@ -48,7 +48,7 @@ const Hero = () => {
             years of professional experience, I've honed my skills to become
             proficient in both backend and frontend development.
           </div>
-          <div className="flex items-center justify-between pt-[33px] gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 items-center justify-center w-full  pt-[33px] gap-6">
             <div className="flex items-center justify-center">
               <button className="flex items-center justify-center gap-[10px] px-3 md:px-8 py-2 md:py-[14px] bg-[#0788FF] text-[#FFFFFF] rounded-[40px] border-[2px] border-[#0788FF] hover:bg-transparent hover:border-[#FFFFFF] transform duration-500">
                 Get in touch{" "}

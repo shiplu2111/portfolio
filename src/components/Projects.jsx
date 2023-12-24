@@ -3,7 +3,7 @@ const Projects = () => {
   return (
     <>
       <div className="flex items-center justify-start bg-[#0788ff1a] ">
-        <div className="px-[52.5px] py-7 md:py-[100px] flex flex-col items-start justify-start">
+        <div className="px-[16px] py-7 md:py-[100px] flex flex-col items-start justify-start">
           <div className="flex items-start justify-start bg-[#0788FF33] rounded-[4px]">
             <div className="px-4 py-1 text-[#FFF] text-[16px] font-[400] leading-[20px] tracking-[4px] uppercase ">
               My Work

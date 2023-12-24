@@ -4,7 +4,7 @@ import { FaCloudDownloadAlt } from "react-icons/fa";
 const AboutMe = () => {
   return (
     <>
-      <div className="flex items-center justify-center px-[26px] md:px-[52px] py-[40px]  md:py-[53px] relative overflow-hidden">
+      <div className="flex items-center justify-center px-[16px] md:px-[52px] py-[40px]  md:py-[53px] relative overflow-hidden">
         <div className="absolute bottom-[20px]  left-[-80px] xl:left-[-160px] md:left-[-110px]  animate-spin-medium">
           <img
             className="h-[160px] md:h-[220px] xl:h-[320px]"
@@ -19,7 +19,7 @@ const AboutMe = () => {
             alt=""
           />
         </div>
-        <div className="z-10 grid grid-cols-1 xl:grid-cols-2 items-start justify-center gap-[60px] md:pt-[48px] px-[26.5px] md:px-[80px] xl:px-[120px]">
+        <div className="z-10 grid grid-cols-1 xl:grid-cols-2 items-start justify-center gap-[60px] md:pt-[48px]  md:px-[80px] xl:px-[120px]">
           <div className="flex items-center justify-center border border-gray-500  rounded-[20px] bg-[#1E364C]">
             <img
               className="h-[354px] md:h-[454px] xl:h-[554px] "
