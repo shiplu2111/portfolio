@@ -2,8 +2,8 @@ import { FaArrowRight } from "react-icons/fa";
 const Projects = () => {
   return (
     <>
-      <div className="flex items-center justify-start bg-[#0788ff1a] ">
-        <div className="px-[16px] py-7 md:py-[100px] flex flex-col items-start justify-start">
+      <div className="flex items-center justify-start bg-[#0788ff1a] px-[16px] md:px-[82.5px] ">
+        <div className=" py-7 md:py-[100px] flex flex-col items-start justify-start">
           <div className="flex items-start justify-start bg-[#0788FF33] rounded-[4px]">
             <div className="px-4 py-1 text-[#FFF] text-[16px] font-[400] leading-[20px] tracking-[4px] uppercase ">
               My Work
@@ -13,7 +13,7 @@ const Projects = () => {
             RECENT PROJECT
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 items-center justify-center pt-[52px]">
-            <div className="bg-[#FFF] rounded-[10px] px-[14px] py-[14px] flex flex-col items-start justify-center">
+            <div className="bg-[#FFF] rounded-[10px] px-[14px] py-[14px] flex flex-col items-start justify-center hover:shadow-2xl hover:shadow-slate-400">
               <div>
                 <img
                   className=" w-full object-cover rounded-[10px]"

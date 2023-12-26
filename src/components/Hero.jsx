@@ -6,6 +6,7 @@ import {
   FaInstagram,
   FaGithub,
 } from "react-icons/fa";
+
 const Hero = () => {
   return (
     <>
@@ -48,7 +49,7 @@ const Hero = () => {
             years of professional experience, I've honed my skills to become
             proficient in both backend and frontend development.
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 items-center justify-center w-full  pt-[33px] gap-6">
+          <div className="flex items-center justify-center flex-col md:flex-row flex-grow w-full md:w-auto   pt-[33px] gap-6">
             <div className="flex items-center justify-center">
               <button className="flex items-center justify-center gap-[10px] px-3 md:px-8 py-2 md:py-[14px] bg-[#0788FF] text-[#FFFFFF] rounded-[40px] border-[2px] border-[#0788FF] hover:bg-transparent hover:border-[#FFFFFF] transform duration-500">
                 Get in touch{" "}
@@ -77,8 +78,8 @@ const Hero = () => {
         </div>
         <div className="flex items-center justify-center">
           <img
-            className="object-cover h-[300px] md:h-[500px] lg:h-[600px] xl:h-[700px]"
-            src="/shiplu1.webp"
+            className="object-cover h-[300px] md:h-[500px] lg:h-[600px] xl:h-auto"
+            src="/shiplu111.png"
           />
         </div>
       </div>

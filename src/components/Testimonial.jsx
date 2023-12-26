@@ -61,10 +61,10 @@ const Testimonial = () => {
           Testimonial
         </div>
 
-        <div className="text-[40px] font-[700] leading-[48px]  text-[#FFFFFF] pt-4">
+        <div className="text-[25px] md:text-[32px]  xl:text-[40px] font-[700] leading-[48px]  uppercase text-[#FFFFFF]">
           Over <span className="text-[#0788FF] animate-pulse ">50+</span>
         </div>
-        <div className="text-[40px] font-[700] leading-[48px]  text-[#FFFFFF] pt-4">
+        <div className="text-[25px] md:text-[32px]  xl:text-[40px] font-[700] leading-[48px]  uppercase text-[#FFFFFF]">
           PEOPLE TRUST ME
         </div>
 
@@ -81,7 +81,7 @@ const Testimonial = () => {
                 </div>
                 <div className="pt-5">
                   {" "}
-                  <div className="pt-[20px] pr-8 flex items-center justify-center text-[20px] font-[400] leading-[30px] text-[#FFFFFF] tracking-[0.2px] text-center px-[60px]">
+                  <div className="pt-[20px] pr-8 flex items-center justify-center text-[20px] font-[400] leading-[30px] text-[#FFFFFF] tracking-[0.2px] md:text-center px-[16px] xl:px-[62px] text-justify">
                     👋 I am a dedicated and experienced web developer with a
                     passion for crafting robust and efficient digital solutions.
                     With a strong academic foundation in Computer Science and
