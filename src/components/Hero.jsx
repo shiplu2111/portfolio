@@ -10,21 +10,21 @@ import {
 const Hero = () => {
   return (
     <>
-      <div className="grid grid-cols-1 lg:grid-cols-2  items-center justify-center px-[16px] md:px-[82.5px] pt-[80px]  md:pt-[60px]">
-        <div className="flex flex-col items-start  justify-center pb-[10px] md:pb-[50px]">
+      <div className="grid grid-cols-1 lg:grid-cols-2  items-center justify-center px-[16px] md:px-[82.5px] pt-[90px]  md:pt-[100px]">
+        <div className="flex flex-col items-start  justify-center pb-[10px] md:pb-[50px] order-2 md:order-1">
           <div className="flex rounded-[4px] px-[13px] py-[5px] bg-[#0788ff33] uppercase text-[16px] font-[400] leading-[20px] traking-[4px] text-[#fff]">
             Md Enzamamul Haque Shiplu
           </div>
-          <div className="pt-2 text-[40px] md:text-[60px] font-[700]  leading-[40px] md:leading-[60px] uppercase text-[#FFFFFF]">
+          <div className="pt-2 text-[40px] md:text-[50px] font-[700]  leading-[40px] md:leading-[50px] uppercase text-[#FFFFFF]">
             Fullstake
           </div>
-          <div className="pt-2 text-[40px] md:text-[60px]  font-[700]  leading-[40px] md:leading-[60px] uppercase text-[#FFFFFF]">
+          <div className="pt-2 text-[40px] md:text-[50px]  font-[700]  leading-[40px] md:leading-[50px] uppercase text-[#FFFFFF]">
             Web Developer
           </div>
           <div className="flex rounded-[4px] px-[13px] mt-4 py-[5px] bg-[#0788ff33] uppercase text-[16px] font-[400] leading-[20px] traking-[4px] text-[#fff]">
             expertise
           </div>
-          <div className="text-[40px] md:text-[60px]  font-[700] leading-[60px] uppercase text-[#0788FF]">
+          <div className="text-[36px] md:text-[50px]  font-[700] leading-[60px] uppercase text-[#0788FF]">
             <TypeAnimation
               sequence={[
                 "Laravel",
@@ -42,7 +42,7 @@ const Hero = () => {
               repeat={Infinity}
             />
           </div>
-          <div className="pt-[31px] pr-8 flex items-start justify-center text-[16px] md:text-[20px] text-justify font-[400] leading-[30px] text-[#FFFFFF] tracking-[0.2px]">
+          <div className="pt-[16px] xl:pr-8 flex items-start justify-center text-[16px] md:text-[20px] text-justify font-[400] leading-[30px] text-[#FFFFFF] tracking-[0.2px]">
             👋 I am a dedicated and experienced web developer with a passion for
             crafting robust and efficient digital solutions. With a strong
             academic foundation in Computer Science and Engineering and over 6
@@ -51,7 +51,7 @@ const Hero = () => {
           </div>
           <div className="flex items-center justify-center flex-col md:flex-row flex-grow w-full md:w-auto   pt-[33px] gap-6">
             <div className="flex items-center justify-center">
-              <button className="flex items-center justify-center gap-[10px] px-3 md:px-8 py-2 md:py-[14px] bg-[#0788FF] text-[#FFFFFF] rounded-[40px] border-[2px] border-[#0788FF] hover:bg-transparent hover:border-[#FFFFFF] transform duration-500">
+              <button className="flex items-center justify-center gap-[10px] px-3 md:px-8 py-2 md:py-[14px] bg-[#0788FF] text-[#FFFFFF] rounded-[40px] border-[2px] border-[#0788FF] hover:bg-transparent hover:border-[#FFFFFF] transform duration-500 hover:shadow-md hover:shadow-slate-800">
                 Get in touch{" "}
                 <span>
                   <img src="/icons/icon.svg" alt="" />
@@ -76,9 +76,9 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center  order-1 md:order-2 pb-5 md:pb-0">
           <img
-            className="object-cover h-[300px] md:h-[500px] lg:h-[600px] xl:h-auto"
+            className="object-cover h-[300px] md:h-[500px] lg:h-[600px] xl:h-[600px] 2xl:h-auto "
             src="/shiplu111.png"
           />
         </div>

@@ -42,7 +42,7 @@ const Testimonial = () => {
 
   return (
     <>
-      <div className="bg-[#0788ff1a] overflow-hidden  flex flex-col items-center justify-center px-[16px] md:px-[83px] py-[70px] relative ">
+      <div className="bg-[#0788ff1a] overflow-hidden  flex flex-col items-center justify-center px-[16px] md:px-[83px] py-7 md:py-12 xl:py-14 relative ">
         <div className="absolute top-[30%] left-[30px] animate-bounce">
           <img
             className="h-16 w-16 object-cover"

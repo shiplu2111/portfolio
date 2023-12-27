@@ -9,14 +9,14 @@ const Projects = () => {
               My Work
             </div>
           </div>
-          <div className="flex items-start justify-center pt-3 text-[40px] font-[700] leading-[48px]  uppercase text-[#FFFFFF]">
+          <div className="flex items-start justify-center pt-3 text-[25px] md:text-[32px]  xl:text-[40px] font-[700] leading-[48px]  uppercase text-[#FFFFFF]">
             RECENT PROJECT
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 items-center justify-center pt-[52px]">
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 items-center justify-center pt-4 md:pt-10 xl:pt-12">
             <div className="bg-[#FFF] rounded-[10px] px-[14px] py-[14px] flex flex-col items-start justify-center hover:shadow-2xl hover:shadow-slate-400">
-              <div>
+              <div className="w-full object-cover">
                 <img
-                  className=" w-full object-cover rounded-[10px]"
+                  className=" h-auto flex items-center "
                   src="/projects/project1.png"
                   alt=""
                 />
@@ -25,7 +25,7 @@ const Projects = () => {
                 <div className="flex flex-col ">
                   <div className="pt-5 flex items-start justify-start">
                     <div className="text-[20px] font-[700] leading-[24px] tracking-[1px]  text-[#040C16]">
-                      Website Design
+                      Website Design 1
                     </div>
                   </div>
                   <div className="pt-[6.8px] flex items-start justify-center">

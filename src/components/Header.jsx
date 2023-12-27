@@ -1,8 +1,12 @@
 "use client";
 import { useState, useEffect } from "react";
+import { FiAlignRight } from "react-icons/fi";
+import { AiOutlineClose } from "react-icons/ai";
+import StickyNav from "./StickyNav";
 const Header = () => {
   //   const [mobileToggle, setMobileToggle] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [showNav, setShowNav] = useState(false);
   useEffect(() => {
     const handleScroll = () => {
       const scrollY = window.scrollY;
@@ -52,6 +56,23 @@ const Header = () => {
           <button className="px-7 py-[10px] rounded-[40px] hover:bg-transparent border-2 border-[#0788FF] hover:border-white hover:transform  duration-1000 bg-[#0788FF]  text-white text-[16px] font-[500] leading-[25.6px] tracking-[1px] uppercase">
             Lets' Talk
           </button>
+        </div>
+        <div className="flex md:hidden items-center justify-center">
+          <div className=" lg:hidden px-[8px] py-[8px] rounded-full hover:bg-transparent border-2  hover:border-white cursor-pointer text-white text-[20px] font-[500] leading-[25.6px] tracking-[1px] ">
+            <FiAlignRight onClick={() => setShowNav(!showNav)} />
+          </div>
+        </div>
+
+        <div
+          className={`${
+            showNav ? "right-0" : "right-[-100vw]"
+          } z-100 fixed top-0 transform duration-700 w-[80%]  h-[90vh]  bg-gradient-to-r from-[#07233b] from-10% via-[#04192d] via-58%  to-[#050c16] to-90% `}
+        >
+          <div className="flex items-start justify-center relative">
+            <div className="absolute top-8 left-[-20px] h-[20px] w-[20px] bg-slate-200 rounded-[5px] ">
+              <AiOutlineClose className="text-[#361616] font-[700]" />
+            </div>
+          </div>
         </div>
       </div>
     </>

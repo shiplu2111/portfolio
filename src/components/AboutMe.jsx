@@ -6,7 +6,7 @@ import Tilt from "react-parallax-tilt";
 const AboutMe = () => {
   return (
     <>
-      <div className="flex items-center justify-center px-[16px] md:px-[82.5px]  py-[40px]  md:py-[53px] relative overflow-hidden">
+      <div className="flex items-center justify-center px-[16px] md:px-[82.5px]  py-[20px]  md:py-[53px] relative overflow-hidden">
         <div className="absolute bottom-[20px]  left-[-80px] xl:left-[-160px] md:left-[-110px]  animate-spin-medium">
           <img
             className="h-[160px] md:h-[220px] xl:h-[320px]"
@@ -39,12 +39,12 @@ const AboutMe = () => {
               </div>
             </div>
             <div className="flex items-start justify-start ">
-              <div className="pt-5 text-[#FFF] text-[40px] font-[700] leading-[48px]  uppercase">
+              <div className="pt-5 text-[#FFF] text-[36px] font-[700] leading-[48px]  uppercase">
                 I AM AVAILABLE FOR
               </div>
             </div>
             <div className="flex items-start justify-start ">
-              <div className="pt-1 text-[#0788FF] text-[40px] font-[700] leading-[48px]  uppercase">
+              <div className="pt-1 text-[#0788FF] text-[32px] font-[700] leading-[48px]  uppercase">
                 <TypeAnimation
                   sequence={[
                     "Web Development",
@@ -64,7 +64,7 @@ const AboutMe = () => {
               </div>
             </div>
             <div className="flex items-start justify-start ">
-              <div className="pt-1 text-[#FFF] text-[40px] font-[700] leading-[48px]  uppercase">
+              <div className="pt-1 text-[#FFF] text-[36px] font-[700] leading-[48px]  uppercase">
                 Projects
               </div>
             </div>
@@ -79,28 +79,28 @@ const AboutMe = () => {
                 with designers, other developers, or project managers.
               </div>
             </div>
-            <div className="pt-[25px] flex items-center justify-between gap-6">
-              <div className="flex flex-col items-center justify-center px-[21px] py-[20px] bg-[#112539]  rounded-[8px]">
+            <div className="pt-[25px] flex items-center justify-between gap-4 ">
+              <div className="flex flex-col items-center justify-center px-4 py-4 bg-[#112539]  rounded-[8px]">
                 <div className="text-[28px] font-[500] leading-[33.6px] text-[#FFFFFF]">
                   40+
                 </div>
-                <div className="text-[13px] font-[400] pt-3 leading-[16.9px] text-[#FFFFFF]">
+                <div className="text-center text-[13px] font-[400] pt-3 leading-[16.9px] text-[#FFFFFF]">
                   Happy Clients
                 </div>
               </div>
-              <div className="flex flex-col items-center justify-center px-[21px] py-[20px] bg-[#112539]  rounded-[8px]">
+              <div className="flex flex-col items-center justify-center px-4 py-4 bg-[#112539]  rounded-[8px]">
                 <div className="text-[28px] font-[500] leading-[33.6px] text-[#FFFFFF]">
                   70+
                 </div>
-                <div className="text-[13px] font-[400] pt-3 leading-[16.9px] text-[#FFFFFF]">
+                <div className="text-[13px] text-center  font-[400] pt-3 leading-[16.9px] text-[#FFFFFF]">
                   Positive Reviews
                 </div>
               </div>
-              <div className="flex flex-col items-center justify-center px-[21px] py-[20px] bg-[#112539]  rounded-[8px]">
+              <div className="flex flex-col items-center justify-center px-4 py-4 bg-[#112539]  rounded-[8px]">
                 <div className="text-[28px] font-[500] leading-[33.6px] text-[#FFFFFF]">
                   5+
                 </div>
-                <div className="text-[13px] font-[400] pt-3 leading-[16.9px] text-[#FFFFFF]">
+                <div className="text-[13px] font-[400] text-center  pt-3 leading-[16.9px] text-[#FFFFFF]">
                   Years Experience
                 </div>
               </div>
