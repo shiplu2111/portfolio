@@ -68,7 +68,7 @@ const Header = () => {
         <div className="flex lg:hidden items-center justify-center">
           <div
             onClick={() => setShowNav(!showNav)}
-            className=" lg:hidden px-[8px] py-[8px] rounded-full hover:bg-transparent border-2  border-[#0788FF] cursor-pointer text-[#0788FF] text-[20px] font-[500] leading-[25.6px] tracking-[1px] hover:transection duration-2000  "
+            className=" lg:hidden px-[8px] py-[8px] rounded-full hover:bg-transparent border-2  border-[#0788FF] cursor-pointer text-[#0788FF] text-[20px] font-[500] leading-[25.6px] tracking-[1px] hover:transection duration-2000  z-[1600]"
           >
             {showNav ? <AiOutlineClose /> : <FiAlignRight />}
           </div>

@@ -40,6 +40,9 @@ const Hero = () => {
               ]}
               speed={0}
               repeat={Infinity}
+              cursor={true}
+              preRenderFirstString={true}
+              className="z-10"
             />
           </div>
           <div className="pt-[16px] xl:pr-8 flex items-start justify-center text-[16px] md:text-[20px] text-justify font-[400] leading-[30px] text-[#FFFFFF] tracking-[0.2px]">

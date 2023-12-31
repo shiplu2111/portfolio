@@ -2,6 +2,8 @@ import "./globals.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import NextTopLoader from "nextjs-toploader";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 export const metadata = {
   title: "Home - Shiplu",
   description: "Portfolio of Shiplu",
@@ -24,7 +26,11 @@ export default function RootLayout({ children }) {
           zIndex={1600}
           showAtBottom={false}
         />
-        {children}
+        <div className="bg-gradient-to-r from-[#07233b] from-10% via-[#04192d] via-58%  to-[#050c16] to-90%">
+          <Header />
+          {children}
+          <Footer />
+        </div>
       </body>
     </html>
   );
