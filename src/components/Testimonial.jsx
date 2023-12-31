@@ -74,7 +74,7 @@ const Testimonial = () => {
               <div className="flex items-center justify-center flex-col ">
                 <div className="pt-2">
                   <img
-                    class="object-cover mx-2 rounded-full w-[100px] shrink-0 h-[100px] ring-8 ring-[#36495C] dark:ring-gray-700 "
+                    className="object-cover mx-2 rounded-full w-[100px] shrink-0 h-[100px] ring-8 ring-[#36495C] dark:ring-gray-700 "
                     src="https://images.unsplash.com/photo-1531590878845-12627191e687?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
                     alt=""
                   />
@@ -107,7 +107,7 @@ const Testimonial = () => {
               <div className="flex items-center justify-center flex-col ">
                 <div className="pt-2">
                   <img
-                    class="object-cover mx-2 rounded-full w-[100px] shrink-0 h-[100px] ring-8 ring-[#36495C] dark:ring-gray-700 "
+                    className="object-cover mx-2 rounded-full w-[100px] shrink-0 h-[100px] ring-8 ring-[#36495C] dark:ring-gray-700 "
                     src="https://images.unsplash.com/photo-1531590878845-12627191e687?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
                     alt=""
                   />

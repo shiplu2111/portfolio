@@ -30,4 +30,66 @@ body {
   background: blue; /* Change the background color for the active dot */
 }
 
+.middle {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+.bar {
+  width: 10px;
+  height: 70px;
+  background: #fff;
+  display: inline-block;
+  transform-origin: bottom center;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  /*   box-shadow:5px 10px 20px inset rgba(255,23,25.2); */
+  animation: loader 1.2s linear infinite;
+}
+.bar1 {
+  animation-delay: 0.1s;
+  background-color: blue;
+}
+.bar2 {
+  animation-delay: 0.2s;
+  background-color: rgb(73, 73, 119);
+}
+.bar3 {
+  animation-delay: 0.3s;
+  background-color: rgb(3, 3, 66);
+}
+.bar4 {
+  animation-delay: 0.4s;
+  background-color: rgb(180, 180, 184);
+}
+.bar5 {
+  animation-delay: 0.5s;
+  background-color: rgb(105, 5, 22);
+}
+.bar6 {
+  animation-delay: 0.6s;
+  background-color: rgb(177, 152, 13);
+}
+.bar7 {
+  animation-delay: 0.7s;
+  background-color: rgb(18, 19, 18);
+}
+.bar8 {
+  animation-delay: 0.8s;
+  background-color: rgb(122, 5, 113);
+}
 
+@keyframes loader {
+  0% {
+    transform: scaleY(0.1);
+  }
+  50% {
+    transform: scaleY(1);
+    background: rgb(44, 49, 33);
+  }
+  100% {
+    transform: scaleY(0.1);
+    background: transparent;
+  }
+}
