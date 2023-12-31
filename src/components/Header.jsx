@@ -18,7 +18,7 @@ const Header = () => {
   useEffect(() => {
     const handleScroll = () => {
       const scrollY = window.scrollY;
-      if (scrollY > 100) {
+      if (scrollY > 10) {
         setScrolled(true);
       } else {
         setScrolled(false);
@@ -75,13 +75,15 @@ const Header = () => {
         </div>
         <div
           className={`${
-            showNav ? "left-0" : "left-[-100vw]"
+            showNav ? "right-0" : "right-[-100vw]"
           } border-t-[.5px]  border-[#3b3f42] z-100 fixed top-[80px] transform duration-700 w-[100%]  h-screen  bg-gradient-to-r  from-gray-800 from-10% via-gray-900 via-58%  to-gray-950 to-90% `}
         >
           <div>
             <div className="flex items-center justify-center flex-col gap-5 pt-5">
               <div className="text-[#FFFFFF] text-[14px] font-[700] leading-[22.4px] tracking-[1px] uppercase pb-[3px] relative  block after:block after:content-[''] after:absolute after:h-[3px] after:bg-[#FFFFFF] after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-700 after:origin-right">
-                <Link href="/">Home</Link>
+                <Link href="/" onClick={() => setShowNav(false)}>
+                  Home
+                </Link>
               </div>
               <div className="text-[#FFFFFF] text-[14px] font-[700] leading-[22.4px] tracking-[1px] uppercase pb-[3px] relative  block after:block after:content-[''] after:absolute after:h-[3px] after:bg-[#FFFFFF] after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-700 after:origin-right">
                 About Me
@@ -95,7 +97,9 @@ const Header = () => {
               </div>
 
               <div className="text-[#FFFFFF] text-[14px] font-[700] leading-[22.4px] tracking-[1px] uppercase pb-[3px] relative  block after:block after:content-[''] after:absolute after:h-[3px] after:bg-[#FFFFFF] after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-500 after:origin-right">
-                <Link href="/contact">Contact</Link>
+                <Link href="/contact" onClick={() => setShowNav(false)}>
+                  Contact
+                </Link>
               </div>
             </div>
           </div>
