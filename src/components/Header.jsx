@@ -75,8 +75,8 @@ const Header = () => {
         </div>
         <div
           className={`${
-            showNav ? "right-0" : "right-[-100vw]"
-          } border-t-[.5px]  border-[#3b3f42] z-100 fixed top-[80px] transform duration-700 w-[100%]  h-screen  bg-gradient-to-r  from-gray-800 from-10% via-gray-900 via-58%  to-gray-950 to-90% `}
+            showNav ? "right-0" : "right-[-200vw] "
+          } border-t-[.5px]  border-[#3b3f42] z-100 fixed top-[80px] block lg:hidden transform duration-700 w-[100%]  h-screen  bg-gradient-to-r  from-gray-800 from-10% via-gray-900 via-58%  to-gray-950 to-90% `}
         >
           <div>
             <div className="flex items-center justify-center flex-col gap-5 pt-5">
