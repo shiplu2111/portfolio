@@ -41,7 +41,7 @@ const page = () => {
                     <FaEnvelope />
                   </div>
                   <div className="text-[#FFF] opacity-80 font-[600] text-[20px] leading-7">
-                    shiplukst@gmail.com
+                    shiplukst2111@gmail.com
                   </div>
                 </div>
                 <div className="flex items-start justify-start gap-2">
@@ -57,7 +57,7 @@ const page = () => {
                     <FaMapMarkerAlt />
                   </div>
                   <div className="text-[#FFF] opacity-80 font-[600] text-[20px] leading-7 pt-2">
-                    Shantidanga, Islamic University, Kushtia-7003 Bangladesh
+                    SHANTIDANGA, E.B-7003, KUSHTIA SADAR, KUSHTIA
                   </div>
                 </div>
 
